@@ -4,13 +4,13 @@
 
 ## English
 
-### About the Project
+### About the project
 A personal portfolio website created to present my skills, education, work experience and projects as a Junior Front-End Developer. The site is fully responsive and available in two languages — English and Slovak.
 
-##  Live Demo
+##  Live demo
 - GitHub Pages: https://hbibiana.github.io/portfolio-website/
 
-### Built With
+## Built with
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
@@ -25,7 +25,7 @@ A personal portfolio website created to present my skills, education, work exper
 - CV download (language-specific file)
 - Contact form with validation and success/error popup
 
-## How to Run Locally
+## How to run locally
 1. Clone the repository or download it
 2. Open `index.html` in your browser
 
