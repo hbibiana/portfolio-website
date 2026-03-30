@@ -62,8 +62,9 @@ h1 {
     padding: 15px;
     border-radius: 5px;
     border: 2px solid rgb(0, 0, 0); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    filter: brightness(1.1); 
 }
-
 
 /*LANGUAGE*/
 .languageDropdown { 
@@ -120,10 +121,6 @@ main {
 /*SECTION HOME*/
 section#home {
     scroll-margin-top: 500px;
-}
-
-.sectionHome {
-
 }
 
 .textHome{
@@ -189,22 +186,38 @@ h2 {
     gap:10px;
     max-width: 800px;
     margin: 40px auto;
-    padding: 0 20px 10px 20px;
+    padding: 15px 20px 10px 20px;
 }
 
 .info-card1,
 .info-card2 {
     padding: 10px 25px;
     margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.078);
+    border-radius: 10px;
 }
 
 .info-card3,
 .info-card4 {
-    padding: 0 30px;
+    padding: 10px 25px;
     margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.078);
+    border-radius: 10px;
+}
+
+.info-card1, .info-card2, .info-card3, .info-card4 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.info-card1:hover, .info-card2:hover, .info-card3:hover, .info-card4:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    border-color: rgba(199, 149, 74, 0.4); 
 }
 
 h3 {
+    text-align: left;
     color:rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.418);
 }
@@ -257,6 +270,20 @@ p {
     color: black;
     border: 2px solid black;
     -webkit-text-stroke: 0.5px black;
+    transition: all 0.3s ease;
+}
+
+.portfolioBtn:hover, 
+.languageBtn:hover, 
+.certificateBtn:hover, 
+.downloadCVBtn:hover, 
+.contactBtn:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    filter: brightness(1.1); 
+}
+
+.downloadCVBtn:hover {
+    background-color: rgb(215, 179, 143);
 }
 
 .portfolioBtn {  
@@ -700,11 +727,15 @@ header {
     padding: 25px 30px;
 }
 
+.aboutmeGrid {
+    padding:20px;
+}
+
 .info-card1,
 .info-card2,
 .info-card3,
 .info-card4 {
-    padding: 0 10px; /*dokoncit*/
+    padding: 10px 20px; /*dokoncit*/
     margin:0;
 }
 
@@ -795,7 +826,3 @@ section#home {
     gap:0;
 }
 }
-
-/** {
-  outline: 1px solid red;
-}*/
