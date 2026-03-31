@@ -8,7 +8,7 @@ const translations = {
     aboutme: "O MNE",
     contact: "KONTAKT",
     portfolio: "PORTFÓLIO",
-    download: "STIAHNUŤ ŽIVOTOPIS",
+    download: "STIAHNUŤ CV",
     contactme: "POSLAŤ SPRÁVU",
     introduction: "Ahoj, som Bibiána Hlavatíková",
     profession: "Junior Front-end developerka",
