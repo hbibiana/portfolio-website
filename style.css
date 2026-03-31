@@ -135,7 +135,7 @@ section#home {
     text-transform: none; 
     letter-spacing: 3px;
     text-transform: uppercase;
-    color:(0, 0, 0, 0.692); 
+    color:rgba(0, 0, 0, 0.692); 
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
@@ -704,7 +704,7 @@ header {
     -webkit-text-stroke: 0.5px black;
     box-sizing: border-box;
 }
-}
+
 
 .navBtn:hover,
 .portfolioBtn:hover {
