@@ -651,6 +651,7 @@ header {
     top: clamp(55px,5vh,230px);
     right: 0;
     left:0;
+    margin-top: 5px;
     background-color:rgba(225, 189, 153, 0.933);
     width: 100%;
     text-align: center;
@@ -666,21 +667,24 @@ header {
 }
 
 .navBar ul li {
-    padding: 8px;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    display: block;
 }
 
 .navBar ul li:hover {
     letter-spacing: 2px;
     list-style-type: none; 
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.267);
-    padding: 8px;
-    background-color:rgba(125, 99, 80, 0.158);
+    padding: 0;
     width: 100%;
 }
 
 .navBar .navBtns{
     flex-direction: column;
     gap: 0;
+    width: 100%;
 }
 
 .navBtns,
@@ -688,21 +692,32 @@ header {
     font-size: 14px;
 }
 
-.navBtn {
+.navBtn,
+.portfolioBtn {
     text-decoration: none;
     color: black;
-    margin: 0px;
+    margin: 0; 
+    padding: 12px 0; 
+    width: 100%; 
+    display: block; 
+    border:none;
     -webkit-text-stroke: 0.5px black;
+    box-sizing: border-box;
+}
 }
 
-.navBtn:hover {
-    background-color:rgba(145, 141, 136, 0);  
+.navBtn:hover,
+.portfolioBtn:hover {
+    background-color: rgba(125, 99, 80, 0.158); 
+    padding: 12px 0; 
     border: none;
+    border-radius: 0; 
+    box-shadow: none;
+    filter: none;
 }
 
 .portfolioBtn {
-    background-color:rgba(145, 141, 136, 0); 
-    border:none;
+    background-color: transparent;
 }
 
 .languageDropdown {
