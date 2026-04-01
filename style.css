@@ -29,7 +29,7 @@ nav {
 }
 
 h1 {
-    font-family: "Playwrite CZ", cursive;
+    font-family: "Playwrite CZ", sans-serif;
     text-transform:lowercase;
     color:rgb(85, 84, 83); 
     -webkit-text-stroke:none;
