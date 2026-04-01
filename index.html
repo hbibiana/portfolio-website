@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio">
     <meta name="author" content="Bibiána Hlavatíková">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CZ:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="style.css">
     <title data-i18n="title">myPortfolio</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
@@ -80,19 +80,19 @@
                 <div class="info-card3">
                     <h3 data-i18n="cardSkills">Skills</h3>
                     <p data-i18n="textSkills">HTML5, CSS3, JavaScript, Git, GitHub, and SQL. Analytical thinking and strong attention to detail. Experience in data processing, reporting, and working with internal systems. A problem-solving mindset with communication and team collaboration skills. Reliable, organized, and a fast learner.
-                </div>     
+                    </p>
+                    </div>     
                 
                 <div class="info-card4">
                     <h3 data-i18n="cardCourses">Courses and certifications</h3>
                     <p data-i18n="textCourses">I attended an accredited course Front-end developer at Skillmea platform.</p>
                     <button class="certificateBtn" id="openBtn" data-i18n="certificate">certificate</button>
-                
-                <div class="popup" id="popup">
-                    <img src="img/certificate.webp" alt="Certificate">
-                </div>
                     <a id="downloadCV" class="downloadCVBtn" href="files/CV.pdf" target="_blank" rel="noopener noreferrer" data-i18n="download" download>DOWNLOAD CV</a>
                 </div>
             </div>
+            <div class="popup" id="popup">
+                    <img src="img/certificate.webp" alt="Certificate">
+                </div>
         </section>
 
         <section id="contact" class="sectionContact">
@@ -104,17 +104,17 @@
                 <form class="formular">
                     <div class="formGroup">
                         <label for="name" class="formularName" data-i18n="labelName">Name</label>
-                        <input name="name" id="name" type="text" required>
+                        <input name="name" id="name" type="text" autocomplete="name" required>
                     </div>
 
                     <div class="formGroup">
                         <label for="email" class="formularEmail" data-i18n="labelEmail">Email</label>
-                        <input name="email" id="email" type="email" placeholder="@" >
+                        <input name="email" id="email" type="email" placeholder="@" autocomplete="email" >
                     </div>
 
                     <div class="formGroup">
                         <label for="textMessage" class="textArea" data-i18n="labelMessage">Message</label>
-                        <textarea name="message" id="textMessage" placeholder="Type message..." data-i18n-placeholder="placeholderMsg"></textarea>
+                        <textarea name="message" id="textMessage" placeholder="Type message..." data-i18n-placeholder="placeholderMsg" autocomplete="off"></textarea>
                     </div>
                         <button class="contactBtn" type="submit" data-i18n="formButton">SEND MESSAGE</button>
                     </form>
