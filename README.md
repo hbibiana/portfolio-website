@@ -5,7 +5,7 @@
 ## English
 
 ### About the project
-A personal portfolio website created to present my skills, education, work experience and projects as a Junior Front-End Developer. The site is fully responsive and available in two languages — English and Slovak.
+A personal portfolio website created to present my skills, education, work experience and projects. The site is fully responsive and available in two languages — English and Slovak.
 
 ##  Live demo
 - GitHub Pages: https://hbibiana.github.io/portfolio-website/
@@ -36,7 +36,7 @@ No installation or dependencies required.
 ## Slovensky
 
 ### O projekte
-Osobná portfólio stránka vytvorená na prezentáciu mojich zručností, vzdelania, pracovných skúseností a projektov ako Junior Front-End Developerka. Stránka je plne responzívna a dostupná v dvoch jazykoch — angličtine a slovenčine.
+Osobná portfólio stránka vytvorená na prezentáciu mojich zručností, vzdelania, pracovných skúseností a projektov. Stránka je plne responzívna a dostupná v dvoch jazykoch — angličtine a slovenčine.
 
 ## Live ukážka
 - GitHub Pages: https://hbibiana.github.io/portfolio-website/
